@@ -22,7 +22,7 @@ If you need it, please open a issue.
 module.exports = {
     module: {
         loaders: [
-            { test: /\.txt(\?.*)?$/, loader: "inconv-lite?inputEncoding=iso-8859-1"}
+            { test: /\.txt(\?.*)?$/, loader: "iconv-lite?inputEncoding=iso-8859-1"}
         ]
     }
 };
